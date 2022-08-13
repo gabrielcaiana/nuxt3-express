@@ -5,9 +5,14 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.8"
+    "nuxt": "3.0.0-rc.8",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^8.0.1"
   }
 }
