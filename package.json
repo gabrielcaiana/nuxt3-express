@@ -8,11 +8,16 @@
     "preview": "nuxt preview",
     "prepare": "husky install"
   },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.8",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@types/express": "^4.17.13",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "^8.0.1"
+    "express": "^4.18.1",
+    "husky": "^8.0.1",
+    "nuxt": "3.0.0-rc.8"
   }
 }
